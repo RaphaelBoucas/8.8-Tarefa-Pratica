@@ -1,0 +1,135 @@
+* {
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rock Salt', cursive;
+    
+}
+
+
+header h1 {
+
+    font-size: 35px;
+    
+}
+
+.container {
+    display: block;    
+    width: 100%;
+    
+
+}
+
+.container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding: 16px;
+    
+    
+}
+form input,
+form button,
+footer button {
+    width: 160px;
+    
+}
+
+
+
+form {
+    
+    background-color: lightgray;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+form button,
+footer button {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.container {
+    max-width: 960px;
+    justify-content: center;
+    
+}
+.container header img {
+    width: 80px;
+
+}
+
+footer {    
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+#tabela {
+    color: green;
+    
+    justify-content: space-between;
+    padding: 16px;    
+    align-items: center;    
+    display: block;
+    margin: 0;
+    
+    
+
+}
+
+#tabela thead th,
+#tabela tbody td {
+    text-align: left;
+    height: 100%;
+    
+    }
+
+table th {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+table td {
+    font-weight :100;
+
+}
+
+.div-tabela {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    }
+
+table {
+    justify-content: space-between;
+}
+
+.div-tabela tr td {
+    padding: 0px 100px;
+    
+
+}
